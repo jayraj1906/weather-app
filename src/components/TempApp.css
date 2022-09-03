@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.box{
+    background-color: #eaece5;
+    height: 100vh;
+    width: 100vw;
+}
+.boxWrapper{
+    width: 20vw;
+    height: 50vh;
+    background-color: #c0ded9;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    -webkit-box-shadow: 0px 10px 17px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 17px -6px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 17px -6px rgba(0,0,0,0.75);
+border-radius: 20px;
+}
+.inputData{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputDataIcon{
+    color: grey;
+    font-size: 28px !important;
+}
+.inputDataInput{
+    height: 80%;
+    width: 75%;
+    border: none; 
+}
+.inputDataInput:focus{
+   outline:none
+}
+.info{
+    
+    height: 70%;
+    margin-top: 40px;
+}
+
+.infoLocation{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center; 
+}
+.infoLocationIcon{
+    color: white;
+    font-size: 50px !important;
+}
+.infoLocationText{
+    font-size: 40px;
+    font-weight: 300;
+}
+.infoTemp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;   
+}
+.infoTempBottom{
+    margin: 20px 0;
+}
+.infoTempBottomMin,.infoTempBottomMax{
+    color: gray;
+    font-weight: 200;
+}
+.noData{
+    
+    width: 50%;
+    font-size: 20px;
+    margin:40% 30%;
+    font-weight: 500;
+}
